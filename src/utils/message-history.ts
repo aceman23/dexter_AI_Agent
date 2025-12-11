@@ -1,6 +1,6 @@
 import { createHash } from 'crypto';
-import { callLlm, DEFAULT_MODEL } from '../model/llm.js';
-import { MESSAGE_SUMMARY_SYSTEM_PROMPT, MESSAGE_SELECTION_SYSTEM_PROMPT } from '../agent/prompts.js';
+import { callLlm, DEFAULT_MODEL } from '../model/llm';
+import { MESSAGE_SUMMARY_SYSTEM_PROMPT, MESSAGE_SELECTION_SYSTEM_PROMPT } from '../agent/prompts';
 import { z } from 'zod';
 
 /**

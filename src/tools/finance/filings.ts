@@ -1,7 +1,7 @@
 import { DynamicStructuredTool } from '@langchain/core/tools';
 import { z } from 'zod';
-import { callApi } from './api.js';
-import { ITEMS_10K_MAP, ITEMS_10Q_MAP, formatItemsDescription } from './constants.js';
+import { callApi } from './api';
+import { ITEMS_10K_MAP, ITEMS_10Q_MAP, formatItemsDescription } from './constants';
 
 const FilingsInputSchema = z.object({
   ticker: z

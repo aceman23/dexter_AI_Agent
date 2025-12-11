@@ -1,9 +1,9 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { join } from 'path';
 import { createHash } from 'crypto';
-import { callLlm, DEFAULT_MODEL } from '../model/llm.js';
-import { CONTEXT_SELECTION_SYSTEM_PROMPT } from '../agent/prompts.js';
-import { SelectedContextsSchema } from '../agent/schemas.js';
+import { callLlm, DEFAULT_MODEL } from '../model/llm';
+import { CONTEXT_SELECTION_SYSTEM_PROMPT } from '../agent/prompts';
+import { SelectedContextsSchema } from '../agent/schemas';
 
 interface ContextPointer {
   filepath: string;

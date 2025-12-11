@@ -1,8 +1,8 @@
-export { Intro } from './Intro.js';
-export { Spinner, SpinnerResult } from './Spinner.js';
-export { Input } from './Input.js';
-export { TaskList, TaskStart, TaskDone, ToolRun } from './TaskList.js';
-export { TaskProgress, TaskState, SubTaskState, DisplayStatus, taskToState, plannedTaskToState } from './TaskProgress.js';
-export { AnswerBox, UserQuery } from './AnswerBox.js';
-export { ModelSelector, MODELS } from './ModelSelector.js';
-export { QueueDisplay } from './QueueDisplay.js';
+export { Intro } from './Intro';
+export { Spinner, SpinnerResult } from './Spinner';
+export { Input } from './Input';
+export { TaskList, TaskStart, TaskDone, ToolRun } from './TaskList';
+export { TaskProgress, TaskState, SubTaskState, DisplayStatus, taskToState, plannedTaskToState } from './TaskProgress';
+export { AnswerBox, UserQuery } from './AnswerBox';
+export { ModelSelector, MODELS } from './ModelSelector';
+export { QueueDisplay } from './QueueDisplay';

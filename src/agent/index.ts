@@ -1,10 +1,10 @@
 // Main Agent class and types
-export { Agent, AgentCallbacks, AgentOptions, Task } from './agent.js';
+export { Agent, AgentCallbacks, AgentOptions, Task } from './agent';
 
 // Collaborator classes
-export { TaskPlanner, TaskPlannerCallbacks } from './task-planner.js';
-export { TaskExecutor, TaskExecutorCallbacks } from './task-executor.js';
-export { AnswerGenerator } from './answer-generator.js';
+export { TaskPlanner, TaskPlannerCallbacks } from './task-planner';
+export { TaskExecutor, TaskExecutorCallbacks } from './task-executor';
+export { AnswerGenerator } from './answer-generator';
 
 // Schemas and types
 export {
@@ -23,7 +23,7 @@ export {
   SelectedContextsSchema,
   OptimizedToolArgs,
   OptimizedToolArgsSchema,
-} from './schemas.js';
+} from './schemas';
 
 // Prompts
 export {
@@ -34,4 +34,4 @@ export {
   getCurrentDate,
   getAnswerSystemPrompt,
   getPlanningSystemPrompt,
-} from './prompts.js';
+} from './prompts';

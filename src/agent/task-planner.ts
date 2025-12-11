@@ -1,8 +1,8 @@
-import { callLlm } from '../model/llm.js';
-import { TOOLS } from '../tools/index.js';
-import { ExecutionPlanSchema, PlannedTask } from './schemas.js';
-import { getPlanningSystemPrompt } from './prompts.js';
-import { MessageHistory } from '../utils/message-history.js';
+import { callLlm } from '../model/llm';
+import { TOOLS } from '../tools/index';
+import { ExecutionPlanSchema, PlannedTask } from './schemas';
+import { getPlanningSystemPrompt } from './prompts';
+import { MessageHistory } from '../utils/message-history';
 
 /**
  * Callbacks for task planning

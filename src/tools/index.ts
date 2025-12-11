@@ -15,8 +15,8 @@ import {
   getNews,
   getAnalystEstimates,
   getSegmentedRevenues,
-} from './finance/index.js';
-import { searchGoogleNews } from './search/index.js';
+} from './finance/index';
+import { searchGoogleNews } from './search/index';
 
 export const TOOLS: StructuredToolInterface[] = [
   getIncomeStatements,

@@ -1,2 +1,2 @@
-export { searchGoogleNews } from './google.js';
+export { searchGoogleNews } from './google';
 

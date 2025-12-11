@@ -1,5 +1,5 @@
-import { Agent, AgentCallbacks, Task } from '../agent.js';
-import { PlannedTask, SubTaskResult } from '../schemas.js';
+import { Agent, AgentCallbacks, Task } from '../agent';
+import { PlannedTask, SubTaskResult } from '../schemas';
 
 // Mock all external dependencies
 jest.mock('../../model/llm.js');
@@ -9,9 +9,9 @@ jest.mock('../task-planner.js');
 jest.mock('../task-executor.js');
 jest.mock('../answer-generator.js');
 
-import { TaskPlanner } from '../task-planner.js';
-import { TaskExecutor } from '../task-executor.js';
-import { AnswerGenerator } from '../answer-generator.js';
+import { TaskPlanner } from '../task-planner';
+import { TaskExecutor } from '../task-executor';
+import { AnswerGenerator } from '../answer-generator';
 
 const MockTaskPlanner = TaskPlanner as jest.MockedClass<typeof TaskPlanner>;
 const MockTaskExecutor = TaskExecutor as jest.MockedClass<typeof TaskExecutor>;

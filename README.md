@@ -71,14 +71,25 @@ cp ../env.example .env
 
 ### Usage
 
-Run Dexter in interactive mode:
+**Option 1: Web UI (Recommended)**
+
+Start the Next.js web interface:
 ```bash
-bun start
+bun run dev
+```
+
+Then open your browser to [http://localhost:3000](http://localhost:3000)
+
+**Option 2: Terminal CLI**
+
+Run Dexter in interactive terminal mode:
+```bash
+bun run cli
 ```
 
 Or with watch mode for development:
 ```bash
-bun dev
+bun run cli:dev
 ```
 
 ### Example Queries

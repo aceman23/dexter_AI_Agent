@@ -1,7 +1,7 @@
-import { callLlmStream } from '../model/llm.js';
-import { getAnswerSystemPrompt } from './prompts.js';
-import { ToolContextManager } from '../utils/context.js';
-import { MessageHistory } from '../utils/message-history.js';
+import { callLlmStream } from '../model/llm';
+import { getAnswerSystemPrompt } from './prompts';
+import { ToolContextManager } from '../utils/context';
+import { MessageHistory } from '../utils/message-history';
 
 /**
  * Responsible for generating the final answer to the user's query.

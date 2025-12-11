@@ -1,6 +1,6 @@
 import { DynamicStructuredTool } from '@langchain/core/tools';
 import { z } from 'zod';
-import { callApi } from './api.js';
+import { callApi } from './api';
 
 const SegmentedRevenuesInputSchema = z.object({
   ticker: z

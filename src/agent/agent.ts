@@ -1,9 +1,9 @@
-import { PlannedTask } from './schemas.js';
-import { TaskPlanner } from './task-planner.js';
-import { TaskExecutor } from './task-executor.js';
-import { AnswerGenerator } from './answer-generator.js';
-import { ToolContextManager } from '../utils/context.js';
-import { MessageHistory } from '../utils/message-history.js';
+import { PlannedTask } from './schemas';
+import { TaskPlanner } from './task-planner';
+import { TaskExecutor } from './task-executor';
+import { AnswerGenerator } from './answer-generator';
+import { ToolContextManager } from '../utils/context';
+import { MessageHistory } from '../utils/message-history';
 
 /**
  * Task type for UI callbacks (simplified view)

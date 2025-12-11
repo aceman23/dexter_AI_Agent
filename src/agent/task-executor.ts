@@ -1,7 +1,7 @@
 import { StructuredToolInterface } from '@langchain/core/tools';
-import { PlannedTask, SubTask, SubTaskResult } from './schemas.js';
-import { TOOLS } from '../tools/index.js';
-import { ToolContextManager } from '../utils/context.js';
+import { PlannedTask, SubTask, SubTaskResult } from './schemas';
+import { TOOLS } from '../tools/index';
+import { ToolContextManager } from '../utils/context';
 
 /**
  * Callbacks for observing task execution progress
